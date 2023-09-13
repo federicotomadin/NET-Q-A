@@ -1,8 +1,4 @@
 
-# .NET Interview Questions
-
-This readme file contains a list of commonly asked interview questions related to various aspects of .NET development. Use these questions to prepare for your interview and showcase your knowledge and experience in .NET.
-
 ## Basic .NET Knowledge
 - **Q: What is .NET and what is its role in software development?**
     - .NET is a software framework developed by Microsoft that provides a platform for building and running applications across different operating systems. Its role in software development is to simplify the process of creating robust, secure, and scalable applications.
