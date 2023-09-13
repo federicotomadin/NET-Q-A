@@ -24,6 +24,9 @@
 - **Q: Describe the differences between value types and reference types in C#.**
     - Value types hold the actual data and are stored on the stack, while reference types hold a reference to the data and are stored on the heap. Value types include primitive types and structures, while reference types include classes, interfaces, and delegates.
 
+- **Q: What are nullable types, and when would you use them?**
+    - Nullable types allow variables to have a value or be null. They are useful when dealing with scenarios where a value may or may not be present, such as database fields or optional parameters.
+
 ```csharp
 int? nullableInt = null;
 int nonNullableInt = 10;
@@ -34,8 +37,8 @@ Console.WriteLine(nullableInt.GetValueOrDefault()); // Output: 0
 Console.WriteLine(nonNullableInt); // Output: 10
 ```
 
-- **Q: What are nullable types, and when would you use them?**
-    - Nullable types allow variables to have a value or be null. They are useful when dealing with scenarios where a value may or may not be present, such as database fields or optional parameters.
+- **Q: Explain the concept of delegates and events in C#.**
+    - Delegates are type-safe function pointers that allow methods to be passed as parameters or stored as variables. Events are a special type of delegates used for implementing the publisher-subscriber pattern, allowing objects to communicate and notify each other of specific actions or state changes.
 
 ```csharp
 public class EventPublisher
@@ -69,9 +72,6 @@ EventSubscriber subscriber = new EventSubscriber(publisher);
 
 publisher.SendMessage("Hello World!"); // Output: Received message: Hello World!
 ```
-
-- **Q: Explain the concept of delegates and events in C#.**
-    - Delegates are type-safe function pointers that allow methods to be passed as parameters or stored as variables. Events are a special type of delegates used for implementing the publisher-subscriber pattern, allowing objects to communicate and notify each other of specific actions or state changes.
 
 ## ASP.NET and Web Development
 - **Q: What is ASP.NET, and how does it differ from ASP.NET Core?**
